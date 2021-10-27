@@ -8,7 +8,7 @@ function newPercent(Old, Btn) {
 function updatePB(Btn) {
   var sP = document.getElementById("selectProgess");
   var selectedPB = sP.options[sP.selectedIndex].value;
-  var Old = document.getElementById("percent-" + selectedPB);
+  var Old = document.getElementById("percent-" + selectedPB).title;
   document.getElementById("percent-" + selectedPB).title =
     "" + newVal(Old, Btn);
   Btn = newPercent(Old, Btn);
