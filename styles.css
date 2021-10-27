@@ -1,0 +1,36 @@
+body {
+  background: chocolate;
+}
+.container {
+  width: 500px;
+  margin: auto;
+  margin-top: 17rem;
+  text-align: center;
+}
+
+.pbborder {
+  border: 4px solid black;
+  margin: 5px auto;
+  position: relative;
+}
+.pbinner {
+  background-color: cadetblue;
+}
+.pbcontainer {
+  padding: 18px;
+}
+.percent {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+}
+.btncontrols {
+  font-size: 18px;
+  margin: auto;
+}
+@media (max-width: 800px) {
+  .container {
+    padding: 0;
+    margin-top: 30px;
+  }
+}
